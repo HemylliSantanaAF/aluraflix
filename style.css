@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+  margin: 0px;
+}
+
+header {
+  display: block;
+  width: 100%;
+  background-color: rgb(24, 24, 24);
+  padding: 20px;
+  font-size: 32px;
+  color: rgb(218, 204, 17);
+  position: fixed;
+}
+
+.chamada {
+  background-image: url(img/524331-padrao-sem-emenda-de-morcego-halloween-fundo-de-feriado-de-dia-das-bruxas-vetor.jpg);
+  padding-bottom: 80px;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.chamadatexto {
+  margin-right: 5%;
+  margin-left: 80px;
+  padding: 20px;
+  color: rgb(192, 149, 9);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.categoriavideos {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+
+.categoria {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.categoriavideos img {
+  opacity: 0.5;
+  height: 200px;
+}
+
+.categoriavideos img:hover {
+  opacity: 1.0;
+}
+
+.categoria h2 {
+  color: rgb(228, 200, 42);
+}
+
+.frame {
+  margin-right: 80px;
+}
+
+.categoriavideos::-webkit-scrollbar {
+  display: none;
+}
